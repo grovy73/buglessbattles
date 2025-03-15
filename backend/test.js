@@ -1,6 +1,6 @@
 
 async function test() {
-    const response = await fetch("http://localhost:4444/execute", {
+    const response = await fetch("http://localhost:9001/execute", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
