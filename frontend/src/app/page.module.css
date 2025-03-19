@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33vw 33vw 34vw;
+    grid-template-rows: 33vh 23vh 10vh 34vh;
+}
+
+.header {
+    grid-column: span 3;
+}
+.header img {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    grid-column: span 3;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 2px solid white;
+}

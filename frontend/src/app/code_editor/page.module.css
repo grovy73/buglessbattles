@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+body > * {
+    padding: 8;
+}
+
+.editor {
+    grid-column: span 4;
+    grid-row: span 5;
+}
+
+.run_container {
+    grid-row: span 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.run_container textarea {
+    height: 100%;
+}
